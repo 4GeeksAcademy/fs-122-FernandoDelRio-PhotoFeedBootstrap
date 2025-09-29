@@ -4,13 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>YT Industries - Especialistas en Bicicletas</title>
-    <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     
 </head>
 <body class="bg-dark text-white">
-    <!-- Barra de navegación -->
+    <!-- Navegación principal -->
     <nav class="navbar bg-dark">
         <div class="container d-flex justify-content-between align-items-center">
             <a class="navbar-brand text-white fw-bold fs-3" href="#home">
@@ -24,8 +23,8 @@
         </div>
     </nav>
 
-    <!-- Sección de inicio -->
-    <section id="home" class="min-vh-100 d-flex align-items-center justify-content-center text-white hero-bg">
+    <!-- Portada principal -->
+    <section id="home" class="min-vh-100 d-flex align-items-center justify-content-center text-white portada-montana">
         <div class="container text-center">
             <h1 class="fw-bold mb-5 display-1">BIKES</h1>
             <div class="d-flex justify-content-center gap-5">
@@ -39,55 +38,55 @@
         </div>
     </section>
 
-    <!-- Sección Enduro -->
-    <section id="all-mountain" class="display-none display-block-target py-5 bg-dark text-white">
+    <!-- Sección de bicis Enduro -->
+    <section id="all-mountain" class="seccion-oculta seccion-activa py-5 bg-dark text-white">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-6">
-                    <img src="YT-Capra-2018 (1).jpg" class="img-fluid rounded shadow bike-img" alt="Enduro Bike">
+                    <img src="YT-Capra-2018 (1).jpg" class="img-fluid rounded shadow foto-bici-destacada" alt="YT Capra Enduro">
                 </div>
                 <div class="col-6">
                     <h2 class="fw-bold mb-3">YT CAPRA PRO</h2>
                     <p class="mb-4">La bicicleta Enduro es el equilibrio perfecto entre eficiencia en subida y capacidad en descenso.</p>
-                    <ul class="list-unstyled mb-4">
-                        <li class="mb-2">Suspensión: 140mm delantera y trasera</li>
-                        <li class="mb-2">Material del cuadro: Aluminio 6061</li>
-                        <li class="mb-2">Transmisión: SRAM NX Eagle 1x12</li>
-                        <li class="mb-2">Frenos: Hidráulicos de 4 pistones</li>
-                        <li class="mb-2">Peso: 13.5 kg</li>
+                    <ul class="especificaciones-bici mb-4">
+                        <li class="item-especificacion">Suspensión: 140mm delantera y trasera</li>
+                        <li class="item-especificacion">Material del cuadro: Aluminio 6061</li>
+                        <li class="item-especificacion">Transmisión: SRAM NX Eagle 1x12</li>
+                        <li class="item-especificacion">Frenos: Hidráulicos de 4 pistones</li>
+                        <li class="item-especificacion">Peso: 13.5 kg</li>
                     </ul>
-                    <p class="h3 fw-bold text-success mb-4">$1,799.99</p>
-                    <a href="#home" class="btn btn-outline-success px-4 py-2">VOLVER</a>
+                    <p class="precio-destacado text-success mb-4">$1,799.99</p>
+                    <a href="#home" class="btn btn-outline-success boton-volver">VOLVER</a>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Sección Downhill -->
-    <section id="dh" class="display-none display-block-target py-5 bg-dark text-white">
+    <!-- Sección de bicis Downhill -->
+    <section id="dh" class="seccion-oculta seccion-activa py-5 bg-dark text-white">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-6">
-                    <img src="yt-tues-29-2019.jpg" class="img-fluid rounded shadow bike-img" alt="DH Bike">
+                    <img src="yt-tues-29-2019.jpg" class="img-fluid rounded shadow foto-bici-destacada" alt="YT Tues Downhill">
                 </div>
                 <div class="col-6">
                     <h2 class="fw-bold mb-3">YT TUES</h2>
                     <p class="mb-4">La Downhill está diseñada para una sola cosa: velocidad en descenso.</p>
-                    <ul class="list-unstyled mb-4">
-                        <li class="mb-2">✓ Suspensión: 200mm delantera y trasera</li>
-                        <li class="mb-2">✓ Material del cuadro: Aluminio 6061 reforzado</li>
-                        <li class="mb-2">✓ Transmisión: Shimano Zee 1x7</li>
-                        <li class="mb-2">✓ Frenos: Shimano Saint 4 pistones</li>
-                        <li class="mb-2">✓ Peso: 16.8 kg</li>
+                    <ul class="especificaciones-bici mb-4">
+                        <li class="item-especificacion">✓ Suspensión: 200mm delantera y trasera</li>
+                        <li class="item-especificacion">✓ Material del cuadro: Aluminio 6061 reforzado</li>
+                        <li class="item-especificacion">✓ Transmisión: Shimano Zee 1x7</li>
+                        <li class="item-especificacion">✓ Frenos: Shimano Saint 4 pistones</li>
+                        <li class="item-especificacion">✓ Peso: 16.8 kg</li>
                     </ul>
-                    <p class="h3 fw-bold text-danger mb-4">$2,899.99</p>
-                    <a href="#home" class="btn btn-outline-light px-4 py-2">VOLVER</a>
+                    <p class="precio-destacado text-danger mb-4">$2,899.99</p>
+                    <a href="#home" class="btn btn-outline-light boton-volver">VOLVER</a>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Bootstrap JS Bundle -->
+    <!-- Scripts de Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

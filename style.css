@@ -1,14 +1,40 @@
-.display-none { display: none; }
-        .display-block-target:target { display: block; }
+.seccion-oculta { 
+            display: none; 
+        }
         
-        .hero-bg {
+        .seccion-activa:target { 
+            display: block; 
+        }
+        
+        
+        .portada-montana {
             background-image: url('YT-Industries_Live-Uncaged_new-brand-identity_2018-mountain-bikes_new-Dirt-Love-steel-hardtail-dirtjump-bike.jpg');
             background-size: cover;
             background-position: center;
         }
         
-        .bike-img {
+        
+        .foto-bici-destacada {
             height: 400px;
             width: auto;
             object-fit: cover;
+        }
+        
+    
+        .especificaciones-bici {
+            list-style: none;
+            padding-left: 0;
+        }
+        
+        .item-especificacion {
+            margin-bottom: 0.5rem;
+        }
+        
+        .precio-destacado {
+            font-size: 1.75rem;
+            font-weight: bold;
+        }
+        
+        .boton-volver {
+            padding: 0.5rem 1.5rem;
         }
