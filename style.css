@@ -1,0 +1,14 @@
+.display-none { display: none; }
+        .display-block-target:target { display: block; }
+        
+        .hero-bg {
+            background-image: url('YT-Industries_Live-Uncaged_new-brand-identity_2018-mountain-bikes_new-Dirt-Love-steel-hardtail-dirtjump-bike.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+        
+        .bike-img {
+            height: 400px;
+            width: auto;
+            object-fit: cover;
+        }
