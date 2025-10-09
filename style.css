@@ -33,6 +33,7 @@
 
        
         .destello{
+          
             font-family: "Michroma";
             text-align: center;
             text-transform: uppercase;
@@ -187,3 +188,17 @@ footer {
     width: 100%;
   }
 }
+
+.navbar-brand{
+  font-family: "Michroma";
+  font-size: smaller;
+  background: linear-gradient(to right, #ffffff, #ffe600 );
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent;
+  
+}
+  
+.visita{
+  font-size:xx-large;
+}
+
