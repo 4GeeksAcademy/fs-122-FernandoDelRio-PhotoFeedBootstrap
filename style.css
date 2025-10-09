@@ -65,3 +65,124 @@
          to { width: 12ch; } 
         }
 
+.seccion-oculta {
+  display: none;
+}
+
+.seccion-activa:target {
+  display: block;
+}
+
+.portada-montana {
+  background-image: url("szymon-godziek-red-bull-rampage.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+.foto-bici-destacada {
+  height: 400px;
+  width: auto;
+}
+
+.precio-destacado {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.boton-volver {
+  padding: 20px 30px;
+}
+
+footer {
+  background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+  color: #fff;
+  padding: 40px 20px;
+  font-family: "Arial", sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 2rem;
+  justify-content: space-between;
+}
+
+.footer-col {
+  flex: 1 1 200px;
+  min-width: 200px;
+  margin-bottom: 20px;
+}
+
+.footer-col h6 {
+  margin: 0 0 15px 0;
+  font-size: 1.2em;
+  color: #e74c3c;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.footer-col p {
+  line-height: 1.6;
+  margin: 0;
+  font-size: 0.95em;
+}
+
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-col ul li {
+  margin: 10px 0;
+}
+
+.footer-col a {
+  color: #e0e0e0;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  font-size: 0.95em;
+}
+
+.footer-col a:hover {
+  color: #e74c3c;
+}
+
+.footer-social {
+  margin-top: 15px;
+}
+
+.footer-social a {
+  margin-right: 16px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 12px;
+  border: 2px solid #e74c3c;
+  border-radius: 4px;
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+
+.footer-social a:first-child {
+  margin-bottom: 16px;
+}
+
+.footer-social a:hover {
+  background-color: #e74c3c;
+  color: #fff;
+  transform: translateY(-2px);
+}
+
+@media (max-width: 800px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .footer-col {
+    width: 100%;
+  }
+}
